@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #85e088;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+}
+
+main {
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table, th, td {
+    border: 1px solid #aaa;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+.img3 {
+    width: 200px;
+    height: 200px;
+    display: block;  /* Hace que la imagen sea un bloque */
+    margin: 0 auto;  /* Centra horizontalmente */
+    padding: 4px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f9f1;
+    padding: 20px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-color: #fff;
+  }
+
+  th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+/*Genera que se vea el realce en la pagina */
+
+
+  tr:hover {
+    background-color: #e6f7e6;
+  }
+
+  caption {
+    caption-side: top;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #2e7d32;
+  }
+
+  .video-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f0fdf4;
+  }
+  
+  h1 {
+    color: #2e7d32;
+  }
+  /* Clase para el color del boton del dato*/ 
+  button {
+    padding: 8px 16px;  
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #388e3c;
+  }
+  
+  .info-extra {
+    display: none;
+    margin-top: 10px;
+    color: #2e7d32;
+    font-style: italic;
+  }
+  
